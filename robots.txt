@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+Host: http://malexparket.ru
+
+Sitemap: http://malexparket.ru/sitemap.xml

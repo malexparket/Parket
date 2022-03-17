@@ -1,0 +1,59 @@
+.header
+    &__wrap
+        padding: 20px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+    &__logo
+        display: flex
+        align-items: center
+        text-decoration: none
+        color: #000000
+    &__img
+        margin-right: 1em
+    &__online
+        text-align: center
+        // display: block
+        margin-bottom: 1em
+        text-decoration: none
+        color: #ffffff
+        padding: 3px 10px
+        background-color: #F07839
+        border-radius: 10px
+        border: none
+        &:hover
+            transition: .3s
+            color: #000000
+    &__link
+        // margin-right: 1em
+        img
+            &:hover
+                transform: rotateZ(5deg)
+                transition: .3s ease
+        // &:last-child
+        //     margin-right: 0
+    &__phone, &__callback, &__clock
+        display: block
+        text-align: right
+    &__phone
+        color: #000000
+        text-decoration: none
+        font-size: 1.5em
+        font-weight: 500
+        margin-bottom: 0.5em
+        &:hover
+            transition: 3s ease
+            text-decoration: underline
+    &__callback
+        color: #000000
+        text-decoration: none
+        &:hover
+            transition: 3s ease
+            text-decoration: underline
+    &__clock
+        margin-bottom: .5em
+    &__mess
+        display: flex
+        justify-content: center
+        line-height: 2

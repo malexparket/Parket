@@ -1,0 +1,81 @@
+.flooring
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: start
+    
+    &-main
+        width: 66%
+        &__title
+            font-weight: bold
+            font-size: 2em
+            color: #419DA8
+            margin-bottom: 1em
+        &__subtitle
+            margin-bottom: 1em
+            font-weight: bold
+        &__wrap
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+
+        &-item
+            margin-bottom: 1.5em
+            width: 90%
+            border: 2px solid #419DA8
+            border-radius: 7px
+            padding: 5px
+            transition: .3s ease
+            position: relative
+            &:hover
+                background-color: #419DA8
+                color: #ffffff
+                cursor: pointer
+                box-shadow: 1px 1px 10px darken(#419DA8, 20%)
+            &__title
+                margin-bottom: 1em
+                text-align: center
+            &__item
+                margin-top: 1em
+                list-style-type: disc
+                list-style-position: inside
+            &__list
+                margin-bottom: 0.5em
+                font-size: 0.9em
+                &:last-child
+                    margin-bottom: 0
+            p
+                margin-bottom: 1em
+                text-decoration: underline
+                font-weight: bold
+                text-align: center
+            &__img
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+                right: 0
+                max-width: 30%
+        &__description
+            margin-bottom: 1em
+            p
+                margin-bottom: 0.7em
+                color: #419DA8
+                font-weight: bold
+                font-size: 1.5em
+.sitebar
+        width: 32%
+        &__list
+            margin-bottom: 1em
+        &__link
+            color: #000000
+            text-decoration: none
+            transition: .3s
+            &:hover
+                color: #ffffff
+                background-color: #419DA8
+                padding: 10px 5px
+                border-radius: 2px
+.active
+    background-color: rgba(255,0, 0, .4)
+    color: #ffffff
+    padding: 5px

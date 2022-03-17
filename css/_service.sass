@@ -1,0 +1,68 @@
+.service
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: start
+    
+    &-main
+        width: 66%
+        &__title
+            font-weight: bold
+            font-size: 2em
+            color: #419DA8
+            margin-bottom: 1em
+        &__subtitle
+            margin-bottom: 1em
+            font-weight: bold
+        &__wrap
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-around
+            flex-direction: column
+
+        &-item
+            margin-bottom: 1.5em
+            width: 47%
+            border: 2px solid #419DA8
+            border-radius: 7px
+            padding: 3px
+            transition: .3s ease
+            &:hover
+                background-color: #419DA8
+                color: #ffffff
+                cursor: pointer
+                box-shadow: 1px 1px 10px darken(#419DA8, 20%)
+            &__title
+                margin-bottom: 1em
+                text-align: center
+            &__item
+                margin-top: 1em
+                list-style-type: disc
+                list-style-position: inside
+            &__list
+                margin-bottom: 0.5em
+                &:last-child
+                    margin-bottom: 0
+            p
+                margin-bottom: 1em
+                text-decoration: underline
+                font-weight: bold
+                text-align: center
+        &__description
+            margin-bottom: 1em
+            p, span
+                margin-bottom: 0.7em
+                color: #419DA8
+                font-weight: bold
+                font-size: 1.5em
+            span
+                color: #419DA8
+                font-weight: bold
+                font-size: 1em
+        &__contact
+            margin-right: auto
+            display: flex
+            align-items: center
+            flex-wrap: wrap
+            a
+                margin-right: 1em
